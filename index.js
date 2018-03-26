@@ -13,7 +13,7 @@ const validateOptions = (opts) => {
   ];
 
   mandatoryFields.forEach((field) => {
-    if (Object.keys(opt).indexOf(field) === -1) {
+    if (Object.keys(opts).indexOf(field) === -1) {
       console.error(`[ERR - VueFireApp]: Miss configuration, the field ${field} is mandatory on options.`);
       isValid = false;
     }

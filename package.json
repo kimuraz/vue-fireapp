@@ -1,7 +1,7 @@
 {
   "name": "vue-fireapp",
   "description": "Vue firebase app wrapper as a plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Kimura <joseduardo.kimura@gmail.com>",
   "license": "MIT",
   "private": false,
